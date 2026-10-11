@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookly | Story that Changes Lives</title>
+    <meta
+      name="description"
+      content="A responsive book introduction website with overview, author, features, pricing, download and reviews sections."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg navbar-light py-3">
+        <div class="container">
+          <a class="navbar-brand" href="#home">
+            <span class="brand-mark">B</span>
+            Bookly
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav mx-auto align-items-lg-center gap-lg-3">
+              <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+              <li class="nav-item"><a class="nav-link" href="#author">Author</a></li>
+              <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+              <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+              <li class="nav-item"><a class="nav-link" href="#reviews">Readers Say</a></li>
+            </ul>
+            <a class="btn btn-primary btn-pill" href="#pricing">Buy now</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <p class="eyebrow text-uppercase">New release</p>
+              <h1>Make your dreams feel bigger than your fear.</h1>
+              <p class="hero-copy">
+                Discover a powerful guide to turning uncertainty into action through real stories,
+                practical frameworks, and daily habits that help you create the life you want.
+              </p>
+
+              <div class="d-flex flex-wrap gap-3 hero-actions">
+                <a class="btn btn-primary btn-lg btn-pill" href="#download">Get free sample</a>
+                <a class="btn btn-outline-primary btn-lg btn-pill" href="#overview">Read overview</a>
+              </div>
+
+              <div class="hero-meta row g-4 mt-4">
+                <div class="col-sm-4">
+                  <strong>4.9/5</strong>
+                  <span>Reader rating</span>
+                </div>
+                <div class="col-sm-4">
+                  <strong>12k+</strong>
+                  <span>Happy readers</span>
+                </div>
+                <div class="col-sm-4">
+                  <strong>32</strong>
+                  <span>Action prompts</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="book-showcase">
+                <div class="book-shadow"></div>
+                <img
+                  src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80"
+                  alt="Book cover of the story book"
+                  class="book-cover"
+                />
+
+                <div class="floating-card review-card">
+                  <div class="card-topline">Reader review</div>
+                  <p>“A clear, honest roadmap for a more meaningful life.”</p>
+                  <div class="card-author">— Maya T.</div>
+                </div>
+
+                <div class="floating-card stat-card">
+                  <span class="stat-label">Success rate</span>
+                  <strong>92%</strong>
+                  <small>Action plan completion</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="overview" class="section-block">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <div class="overview-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80"
+                  alt="Open book on a desk"
+                />
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <p class="eyebrow text-uppercase">Book overview</p>
+              <h2>Build courage, discipline, and clarity one chapter at a time.</h2>
+              <p>
+                This book explores the mindset shifts and daily rituals that help ordinary people become
+                confident, resilient, and purpose-driven. Each chapter is designed to make personal growth
+                feel practical, meaningful, and achievable.
+              </p>
+              <ul class="check-list">
+                <li>Easy-to-follow lessons for everyday life</li>
+                <li>Real examples from growth, career, and relationships</li>
+                <li>Exercises that turn reflection into action</li>
+              </ul>
+
+              <div class="overview-stats row g-4 mt-3">
+                <div class="col-4">
+                  <strong>12</strong>
+                  <span>Chapters</span>
+                </div>
+                <div class="col-4">
+                  <strong>8</strong>
+                  <span>Workbooks</span>
+                </div>
+                <div class="col-4">
+                  <strong>100%</strong>
+                  <span>Actionable</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="author" class="section-block section-soft">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-5">
+              <div class="author-photo-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80"
+                  alt="Portrait of the author"
+                />
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <p class="eyebrow text-uppercase">Author</p>
+              <h2>Meet Sarah Morgan, the voice behind the movement.</h2>
+              <p>
+                Sarah Morgan is a bestselling coach, keynote speaker, and mentor known for helping people
+                overcome self-doubt and reclaim focus. Her work blends personal experience with practical
+                psychological insight to create meaningful change.
+              </p>
+
+              <div class="author-highlights row g-3 mt-3">
+                <div class="col-md-6">
+                  <div class="mini-card">
+                    <span class="mini-label">Featured in</span>
+                    <strong>Forbes</strong>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mini-card">
+                    <span class="mini-label">Mentored</span>
+                    <strong>10,000+ people</strong>
+                  </div>
+                </div>
+              </div>
+
+              <blockquote>
+                “People don’t need more motivation — they need a system that turns intention into identity.”
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section-block">
+        <div class="container">
+          <div class="section-heading text-center mx-auto mb-5">
+            <p class="eyebrow text-uppercase">Features</p>
+            <h2>Everything included to help you move forward.</h2>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6 col-xl-3">
+              <div class="feature-card">
+                <div class="feature-icon">01</div>
+                <h3>Practical frameworks</h3>
+                <p>Clear systems to help you make decisions with confidence and less overthinking.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <div class="feature-card">
+                <div class="feature-icon">02</div>
+                <h3>Real-life stories</h3>
+                <p>Relatable experiences that show growth is possible even during uncertainty.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <div class="feature-card">
+                <div class="feature-icon">03</div>
+                <h3>Daily action prompts</h3>
+                <p>Small prompts that keep your momentum strong without feeling overwhelming.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <div class="feature-card">
+                <div class="feature-icon">04</div>
+                <h3>Growth workbook</h3>
+                <p>Reflective exercises and journaling pages that help you practice what you learn.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section-block section-soft">
+        <div class="container">
+          <div class="section-heading text-center mx-auto mb-5">
+            <p class="eyebrow text-uppercase">Pricing</p>
+            <h2>Choose the edition that fits your journey.</h2>
+          </div>
+
+          <div class="row g-4 align-items-end">
+            <div class="col-lg-4">
+              <div class="pricing-card">
+                <span class="pricing-tier">E-book</span>
+                <h3>$19</h3>
+                <ul>
+                  <li>Full digital access</li>
+                  <li>Bonus workbook PDF</li>
+                  <li>Instant download</li>
+                </ul>
+                <a href="#download" class="btn btn-outline-primary btn-pill">Get e-book</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="pricing-card pricing-card-featured">
+                <span class="pricing-badge">Most popular</span>
+                <span class="pricing-tier">Paperback</span>
+                <h3>$29</h3>
+                <ul>
+                  <li>Printed book shipped</li>
+                  <li>Workbook included</li>
+                  <li>Member community access</li>
+                </ul>
+                <a href="#download" class="btn btn-primary btn-pill">Order now</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="pricing-card">
+                <span class="pricing-tier">Premium bundle</span>
+                <h3>$49</h3>
+                <ul>
+                  <li>Everything in paperback</li>
+                  <li>Live workshop access</li>
+                  <li>Signed bonus note</li>
+                </ul>
+                <a href="#download" class="btn btn-outline-primary btn-pill">Choose bundle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="download" class="section-block download-section">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <p class="eyebrow text-uppercase">Download</p>
+              <h2>Start reading today with instant access.</h2>
+              <p>
+                Download the free sample chapter and preview the first powerful ideas that will change how
+                you see growth, resilience, and fulfillment.
+              </p>
+              <ul class="check-list">
+                <li>Free preview chapter</li>
+                <li>Mobile-friendly reading</li>
+                <li>Available for Kindle, iBooks, and PDF</li>
+              </ul>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="download-card">
+                <div class="download-badge">Free sample</div>
+                <h3>Get your first chapter today</h3>
+                <div class="store-buttons">
+                  <a href="#" class="store-link">
+                    <span class="store-icon"></span>
+                    <span>
+                      <small>Download on the</small>
+                      <strong>App Store</strong>
+                    </span>
+                  </a>
+                  <a href="#" class="store-link">
+                    <span class="store-icon">▶</span>
+                    <span>
+                      <small>Get it on</small>
+                      <strong>Google Play</strong>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="section-block">
+        <div class="container">
+          <div class="section-heading text-center mx-auto mb-5">
+            <p class="eyebrow text-uppercase">Reader's say</p>
+            <h2>Real feedback from readers who started the journey.</h2>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6 col-xl-4">
+              <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>
+                  “This book inspired me to stop waiting and start building the life I wanted. The lessons
+                  were practical and honest.”
+                </p>
+                <div class="reviewer">
+                  <strong>Jason W.</strong>
+                  <span>Product designer</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xl-4">
+              <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>
+                  “Every chapter gave me something I could apply the same day. It felt personal, but never
+                  overwhelming.”
+                </p>
+                <div class="reviewer">
+                  <strong>Emma R.</strong>
+                  <span>Teacher</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xl-4">
+              <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>
+                  “The author speaks directly to the fears we all carry. It is warm, motivating, and deeply
+                  actionable.”
+                </p>
+                <div class="reviewer">
+                  <strong>Daniel L.</strong>
+                  <span>Startup founder</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top row gy-4 align-items-center">
+          <div class="col-lg-4">
+            <a href="#home" class="navbar-brand footer-brand">
+              <span class="brand-mark">B</span>
+              Bookly
+            </a>
+          </div>
+          <div class="col-lg-8 d-flex flex-wrap justify-content-lg-end gap-3">
+            <a href="#overview">Overview</a>
+            <a href="#author">Author</a>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#download">Download</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© <span id="year"></span> Bookly. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
